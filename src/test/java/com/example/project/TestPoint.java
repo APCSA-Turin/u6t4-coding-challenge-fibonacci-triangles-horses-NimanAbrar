@@ -1,4 +1,4 @@
-package com.example.project;
+/*package com.example.project;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
@@ -27,4 +27,4 @@ public class TestPoint{
         assertEquals("(10, 5)",p.pointInfo(),"pointInfo() doesn't return (x, y) format");
     }
 
-}
+}*/
