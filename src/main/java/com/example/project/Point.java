@@ -18,12 +18,19 @@ public class Point {
     // Returns distance between this Point object and another Point object
     public double distanceTo(Point other) {
       /* IMPLEMENT ME */
-      return Math.pow(Math.pow(x - other.getX(), 2) + Math.pow(y - other.getY(), 2), 1/2);
+      double xVal = Math.pow((x - other.x), 2);
+      double yVal = Math.pow((y - other.y), 2);
+      double distance = Math.sqrt(xVal + yVal);
+      return distance;
     }
   
     // Returns a string in the format: (x, y)
     public String pointInfo() {
       /* IMPLEMENT ME */
       return "("+x+", " + y + ")";
+    }
+    public void incrementPoint(int val) {
+      x+= val;
+      y+= val;
     }
   }
